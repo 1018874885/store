@@ -7,7 +7,7 @@
     <!-- 指定数据连接驱动jar地址 -
     <classPathEntry
             location="D:\repository\mysql\mysql-connector-java\5.1.38\mysql-connector-java-5.1.38.jar"/>-->
-            <classPathEntry location="C:\Users\zhangyouhao\maven_repository\mysql\mysql-connector-java\8.0.28\mysql-connector-java-8.0.28.jar"/>
+            <classPathEntry location="D:\Users\zhangyouhao\maven_repository\mysql\mysql-connector-java\8.0.28\mysql-connector-java-8.0.28.jar"/>
 
     <!-- 一个数据库一个context -->
     <context id="base" targetRuntime="MyBatis3" defaultModelType="conditional">
@@ -23,13 +23,13 @@
 
         <!-- 生成Model对象 -->
         <javaModelGenerator targetPackage="com.cy.store.mybatis.model.auto"
-                            targetProject="C:\Users\zhangyouhao\Desktop\store\src\main\java">
+                            targetProject="D:\Users\zhangyouhao\Desktop\store\src\main\java">
             <property name="trimStrings" value="true"/>
         </javaModelGenerator>
 
         <!-- 生成sqlXML文件路径配置 -->
         <sqlMapGenerator targetPackage="sqlmap.auto"
-                         targetProject="C:\Users\zhangyouhao\Desktop\store\src\main\resources"/>
+                         targetProject="D:\Users\zhangyouhao\Desktop\store\src\main\resources"/>
 
         <!-- 生成DAO的类文件以及配置文件 -->
         <javaClientGenerator targetPackage="com.cy.store.mybatis.dao.auto"
